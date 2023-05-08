@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Day</title>
+    </head>
+    <body>
+    <!-- <% if(typeOfDay==="Sunday"|| typeOfDay==="Saturday"){ %>
+        <h1 style="color: purple">Today is a <%=typeOfDay%></h1>
+    <% }else{ %>
+        <h1 style="color: blue">Today is a <%=typeOfDay%></h1>
+    <% } %> -->
+    <h1> <%= kindOfDay %> </h1>
+    <ul>
+        <li>Buy Food</li>
+        <li>Make Food</li>
+        <li>Eat Food</li>
+    </ul>
+    <form method="post" action="/">
+        <input type="text" name="nextItem">
+        <button type="submit">Add</button>
+    </form>
+    </body>
+</html>
